@@ -36,3 +36,18 @@ Version Angular
 ng version
 ```
 
+Crear un nuevo proyecto en angular
+
+```bash
+ng new clientes-app
+```
+
+## server angular
+
+encender y abriri en el navegador
+
+```bash
+ng serve -o
+```
+
+
