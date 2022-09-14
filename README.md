@@ -50,4 +50,13 @@ encender y abriri en el navegador
 ng serve -o
 ```
 
+Crear componente con comandos
+### Nos ubicamos en el directorio
+### CD \Spring5 \ angular \ clientes - app \ src \ app \ footer > 
+
+```bash
+ng generate class footer/footer.component
+```
+
+se cambia el nombre de la class Footer.component a este FooterComponent
 

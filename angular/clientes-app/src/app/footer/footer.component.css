@@ -1,0 +1,6 @@
+.footer{
+    position: absolute; /*poner al final de la pagina*/
+    bottom: 0px; /*Para dejar al fondo*/
+    height: 60px; /*Altura 60px*/
+    width: 100%;
+}
