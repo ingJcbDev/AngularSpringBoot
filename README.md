@@ -71,3 +71,14 @@ De forma abreviada
 ```bash
 ng g c directiva
 ```
+
+## Generar un service 
+```bash
+ng generate service cliente
+```
+
+De forma abreviada 
+
+```bash
+ng g s cliente
+```
