@@ -82,3 +82,28 @@ De forma abreviada
 ```bash
 ng g s cliente
 ```
+
+
+## Para instalar boostrap
+
+lo tenemos asi
+```bash
+  <!-- CSS only -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+```  
+
+pero lo podemos dejar asi en el archivo (angular.json)
+
+```bash
+"styles": [
+    "src/styles.css",
+    "assets/css/bootstrap.min.css"
+],
+"scripts": [
+    "assets/js/popper.min.js",
+    "assets/js/bootstrap.min.js"
+]
+```  
