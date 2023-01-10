@@ -98,12 +98,12 @@ lo tenemos asi
 pero lo podemos dejar asi en el archivo (angular.json)
 
 ```bash
-"styles": [
+  "styles": [
     "src/styles.css",
-    "assets/css/bootstrap.min.css"
-],
-"scripts": [
-    "assets/js/popper.min.js",
-    "assets/js/bootstrap.min.js"
-]
+    "src/assets/css/bootstrap.min.css"
+  ],
+  "scripts": [
+    "src/assets/js/popper.min.js",
+    "src/assets/js/bootstrap.min.js"              
+  ]
 ```  

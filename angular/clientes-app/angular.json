@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css"
             ],
             "scripts": [
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js"              
             ]
           },
           "configurations": {
@@ -98,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3977aae8-818d-4355-818f-5ee66ac390e1"
   }
 }
