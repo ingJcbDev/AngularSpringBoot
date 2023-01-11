@@ -36,6 +36,28 @@ Version Angular
 ng version
 ```
 
+```
+ng : El término 'ng' no se reconoce como nombre de un cmdlet, función, archivo de script o      
+programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de    
+acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ ng serve -o
++ ~~
+    + CategoryInfo          : ObjectNotFound: (ng:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+-- Solucion
+
+Por tanto, el error es que en el sistema esta deshabilitada la ejecución de scripts. Si abrimos el Windows PowerShell 
+como administrador y ejecutamos el comando 
+«Get-ExecutionPolicy»
+nos tendría que devolver «Unrestricted» o lo que es lo mismo 
+«Restringido»
+Para cambiar esta configuración basta con ejecutar 
+«Set-ExecutionPolicy Unrestricted»	
+```
+
+
 Crear un nuevo proyecto en angular
 
 ```bash
@@ -105,5 +127,21 @@ pero lo podemos dejar asi en el archivo (angular.json)
   "scripts": [
     "src/assets/js/popper.min.js",
     "src/assets/js/bootstrap.min.js"              
+  ]
+```  
+
+Cuando instalamos boostrap con npm (angular.json)
+
+```bash
+npm install bootstrap
+```
+
+```bash
+  "styles": [
+    "src/styles.css",
+    "./node_modules/bootstrap/dist/css/bootstrap.css"
+  ],
+  "scripts": [
+    "./node_modules/bootstrap/dist/js/bootstrap.min.js"              
   ]
 ```  
