@@ -145,3 +145,9 @@ npm install bootstrap
     "./node_modules/bootstrap/dist/js/bootstrap.min.js"              
   ]
 ```  
+### HERRAMIENTAS NECESARIAS PARA EL CURSO
+* JDK (Java SE Development Kit) [link](https://www.oracle.com/co/java/technologies/downloads/)
+* IDE Eclipse + Spring Tools (Eclipse IDE for Enterprise Java and Web Developers) [link](https://www.eclipse.org/downloads/packages/)
+* Maven
+* MYSQL
+* Postman
