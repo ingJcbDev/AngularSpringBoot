@@ -57,6 +57,16 @@ Para cambiar esta configuración basta con ejecutar
 «Set-ExecutionPolicy Unrestricted»	
 ```
 
+###Si apartir de esto no funciona validar lo siguente
+
+0. Validar Instalacion nodejs
+1.  Valigar/agregar Path nodejs
+2. Validar/Agregar Path de npm
+3.  Validar Instalacién global de la Libreria (angular/cli)
+4.  Validat/Agregar Fath de angular/eli
+5. Ejecutar ng desde apm run
+
+* [link](https://www.evernote.com/client/web?login=true#?n=fc524878-77d9-adeb-bb8e-9917cdf34726&)
 
 Crear un nuevo proyecto en angular
 
