@@ -161,3 +161,9 @@ npm install bootstrap
 * Maven
 * MYSQL
 * Postman
+
+Ver la version de java instalada
+
+```bash
+java --version
+```  
