@@ -167,3 +167,14 @@ Ver la version de java instalada
 ```bash
 java --version
 ```  
+
+Esta es la conexion de mysql que me funciono
+
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/db_springboot_backend?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=sasa
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform = org.hibernate.dialect.MySQL57Dialect
+spring.jpa.hibernate.ddl-auto = create-drop
+```
