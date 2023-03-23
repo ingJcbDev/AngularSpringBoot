@@ -14,19 +14,20 @@ import jakarta.persistence.TemporalType;
 
 
 @Entity
-@Table(name="clientes")
+@Table(name="clientes") // Este es el nombre de la tabla
 public class Cliente implements Serializable {
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id // Declara la llave primaria
+	@GeneratedValue(strategy=GenerationType.IDENTITY) // Tipo de llave primaria
 	private Long id;
 	
+	// Se deja por defecto y no se le especifica el tipo de columna
 	private String nombre;
 	private String apellido;
 	private String email;
 	
-	@Column(name="create_at")
-	@Temporal(TemporalType.DATE)
+	@Column(name="create_at") // Se especifica tipo de columna
+	@Temporal(TemporalType.DATE) // Se especifica el tipo de columna
 	private Date createAt;
 
 	public Long getId() {
