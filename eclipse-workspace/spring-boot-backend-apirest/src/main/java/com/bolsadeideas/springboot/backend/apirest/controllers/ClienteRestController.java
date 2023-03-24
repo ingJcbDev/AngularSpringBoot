@@ -23,4 +23,5 @@ public class ClienteRestController {
 	public List<Cliente> index(){
 		 return clienteService.findAll();
 	}
+	
 }

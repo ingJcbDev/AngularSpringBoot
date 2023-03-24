@@ -12,7 +12,6 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 
-
 @Entity
 @Table(name="clientes") // Este es el nombre de la tabla
 public class Cliente implements Serializable {

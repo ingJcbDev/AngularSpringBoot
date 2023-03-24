@@ -11,3 +11,5 @@ INSERT INTO `clientes` (nombre, apellido, email, create_at) VALUES('Andres8', 'G
 INSERT INTO `clientes` (nombre, apellido, email, create_at) VALUES('Andres9', 'Guzman9', '9andres.guzman@gmail.com', '2018-01-01');
 INSERT INTO `clientes` (nombre, apellido, email, create_at) VALUES('Andres10', 'Guzman10', '10andres.guzman@gmail.com', '2018-01-01');
 INSERT INTO `clientes` (nombre, apellido, email, create_at) VALUES('Andres11', 'Guzman11', '11andres.guzman@gmail.com', '2018-01-01');
+
+
