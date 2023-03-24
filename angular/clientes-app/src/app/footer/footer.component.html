@@ -1,7 +1,14 @@
-<footer class="bg-dark rounded-top text-center footer">
-    <div class="container py-2">
-        <p class="text-white my-2">
-            &copy; {{autor.nombre + ' ' + autor.apellido}}
-        </p>
-    </div>
-</footer>
+    <footer class="p-3 bg-dark text-white rounded-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">&copy; {{autor.nombre + ' ' + autor.apellido}}</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
