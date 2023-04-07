@@ -178,3 +178,26 @@ spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform = org.hibernate.dialect.MySQL57Dialect
 spring.jpa.hibernate.ddl-auto = create-drop
 ```
+
+# Creando apiREst con postgresql
+
+Creando el api en eclipse base de datos postgreslq13
+
+Name: spring-boot-backend-apirest-postgres
+Type: Maven
+Group: com.nombreEmpresa.springboot.backend.apirest
+Package: com.nombreEmpresa.springboot.backend.apirest
+
+Next ->
+
+Seleccionar la ultima version estable
+
+Spring Boot Version: 3.0.5
+
+Seleccionar las dependencias
+
+Web: Spring Web
+SQL: Spring Data JPA, PostgreSQL Driver
+Developer Tools: Spring Boot DevTools
+
+Finish ->
